@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open("input.txt", "r")
-
 def discrim(lists):
     for i in range(len(lists)):
         if lists[i] == '(' or lists[i] == '{':
