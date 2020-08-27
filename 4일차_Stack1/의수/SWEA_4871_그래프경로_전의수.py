@@ -1,5 +1,3 @@
-import sys
-sys.stdin = open("sample_input.txt", "r")
 def dfs(start_node):
     global result
     visited[start_node] = 1 # 방문했다는 표시
