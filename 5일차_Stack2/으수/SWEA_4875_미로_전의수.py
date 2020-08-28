@@ -25,3 +25,4 @@ for tc in range(1, int(input())+1):
     visited = []
     findmaze(start_x, start_y)
     print('#{} {}'.format(tc, result))
+
