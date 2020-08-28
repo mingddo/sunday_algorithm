@@ -21,14 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5c90f069-4752-42b4-8d14-bac268f642cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4875_미로_전의수.py" beforeDir="false" afterPath="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4875_미로_전의수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4881_배열최소합_전의수.py" beforeDir="false" afterPath="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4881_배열최소합_전의수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4880_토너먼트카드게임_전의수.py" beforeDir="false" afterPath="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4880_토너먼트카드게임_전의수.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5일차_Stack2/으수/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/5일차_Stack2/으수/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,28 +53,7 @@
       <recent name="C:\Users\Jeon\Desktop\sunday_algorithm\5일차_Stack2\으수" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SWEA_4881_배열최소합_전의수">
-    <configuration name="SWEA_4874_Forth_전의수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="sunday_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5일차_Stack2/으수" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4874_Forth_전의수.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SWEA_4880_토너먼트카드게임_전의수">
     <configuration name="SWEA_4875_미로_전의수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sunday_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +75,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SWEA_4880_토너먼트카드게임_전의수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sunday_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5일차_Stack2/으수" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4880_토너먼트카드게임_전의수.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SWEA_4881_배열최소합_전의수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sunday_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +109,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5일차_Stack2/으수/SWEA_4881_배열최소합_전의수.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="오셀로_수아" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sunday_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/오셀로_수아.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,10 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SWEA_4880_토너먼트카드게임_전의수" />
+        <item itemvalue="Python.오셀로_수아" />
         <item itemvalue="Python.SWEA_4881_배열최소합_전의수" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.SWEA_4875_미로_전의수" />
-        <item itemvalue="Python.SWEA_4874_Forth_전의수" />
       </list>
     </recent_temporary>
   </component>
@@ -165,25 +193,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="929" height="347" key="GridCell.Tab.0.bottom" timestamp="1598606843313">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1598618956012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="929" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598606843313" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598618956012" />
     <state width="2539" height="491" key="GridCell.Tab.0.bottom/566.-1036.1842.996/0.0.2560.1400@0.0.2560.1400" timestamp="1598548709227" />
-    <state width="929" height="347" key="GridCell.Tab.0.center" timestamp="1598606843313">
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1598618956011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="929" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598606843313" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598618956011" />
     <state width="2539" height="491" key="GridCell.Tab.0.center/566.-1036.1842.996/0.0.2560.1400@0.0.2560.1400" timestamp="1598548709227" />
-    <state width="929" height="347" key="GridCell.Tab.0.left" timestamp="1598606843313">
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1598618956011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="929" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598606843313" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598618956011" />
     <state width="2539" height="491" key="GridCell.Tab.0.left/566.-1036.1842.996/0.0.2560.1400@0.0.2560.1400" timestamp="1598548709227" />
-    <state width="929" height="347" key="GridCell.Tab.0.right" timestamp="1598606843313">
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1598618956012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="929" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598606843313" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598618956012" />
     <state width="2539" height="491" key="GridCell.Tab.0.right/566.-1036.1842.996/0.0.2560.1400@0.0.2560.1400" timestamp="1598548709227" />
     <state x="974" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1598603779360">
       <screen x="0" y="0" width="1920" height="1040" />
