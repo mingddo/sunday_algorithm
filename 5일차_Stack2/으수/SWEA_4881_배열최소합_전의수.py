@@ -26,11 +26,11 @@ for tc in range(1, int(input())+1):
     N = int(input())
     array = [[int(x) for x in input().split()] for _ in range(N)]
     index_list = combination(N)
+    print(index_list)
     res = []
     for i in range(len(index_list)):
         temp = []
         for j in range(N):
             temp.append(array[j][index_list[i][j]])
-        print(temp)
         res.append(sum(temp))
     print('#{} {}'.format(tc, min(res)))
