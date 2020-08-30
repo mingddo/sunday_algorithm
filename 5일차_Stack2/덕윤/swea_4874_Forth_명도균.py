@@ -4,7 +4,6 @@ import sys
 for test_case in range(1, int(input()) + 1):
     code = list(input().split())
     nums = []
-    result = 'error'
     p = 0
     for c in code:
         if c == '.':
@@ -18,7 +17,7 @@ for test_case in range(1, int(input()) + 1):
         try:
             nums.append(int(c))
 
-        except ValueError :
+        except :
             if len(nums) < 2:
                 p = -1
                 # result = 'error'
@@ -27,13 +26,14 @@ for test_case in range(1, int(input()) + 1):
                 b = nums.pop()
                 a = nums.pop()
                 if c == '+':
-                    nums.append((a+b))
+                    nums.append(a+b)
                 elif c == '-':
-                    nums.append((a - b))
+                    nums.append(a - b)
                 elif c == '*':
-                    nums.append((a * b))
+                    nums.append(a * b)
                 elif c == '/':
-                    nums.append((a / b))
+                    nums.append(a // b)
+                    #나눗셈의 경우 float형으로 반환되니깐 무조건 //로 해야해
     if p == -1 or len(nums) != 1:
         print('#{} error'.format(test_case))
     elif p == 1:
