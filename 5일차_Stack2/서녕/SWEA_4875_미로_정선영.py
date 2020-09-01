@@ -12,11 +12,10 @@ def DFS(hr, hc):
     for i in range(4):
         tr = hr + dr[i]  # here to there
         tc = hc + dc[i]
+        if miro[tr][tc] == 3:
+            result = 1
+            break
         if IsRoute(tr, tc) and ((tr, tc) not in visited):
-            if miro[tr][tc] == 3:  # 경로 존재 (도착)
-                visited.append((tr, tc))
-                result = 1
-                return result
             DFS(tr, tc)
 
 
