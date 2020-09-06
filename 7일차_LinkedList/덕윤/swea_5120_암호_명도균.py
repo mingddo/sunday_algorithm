@@ -3,7 +3,7 @@ import sys
 sys.stdin = open("input(1).txt", "r")
 def f(m, k):
     i = 0
-    while k !=0:
+    while k != 0:
         i += m
         if i < len(arr):
             arr[i:i] = [arr[i-1] + arr[i]]
@@ -11,7 +11,7 @@ def f(m, k):
         elif i == len(arr):
             arr.append(arr[0]+arr[len(arr)-1])
             i = -1
-            k -=1
+            k -= 1
         else:
             i = i % len(arr)
             arr[i:i] = [arr[i - 1] + arr[i]]
