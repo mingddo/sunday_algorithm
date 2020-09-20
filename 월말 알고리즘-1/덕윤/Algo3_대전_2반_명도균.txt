@@ -1,0 +1,38 @@
+# 트럼프 카드의 구성 : (하트 :1~13) , (클로버 :1~13), (다이아 :1~13), (스페이드 :1~13)
+# 최소의 합을 구하는 함수
+def game(x):
+    global result #전역변수
+    global minValue #전역 변수
+    # 만약 N번학생까지 했다면 (for문이 0부터 시작이니 N까지 온 거면 모든 학생들이 다 고른 것)
+    # minVaule 보다 합이 작으면 교체, 아니면 교체하지 않음.
+    if x == N:
+        if minVaule > result:
+            minValue = result
+    # 만약 더하고 있는 중에 minValue 보다 커지면 더이상 갈 필요 없음
+    if result > minValue:
+        return
+    # 앞에서 선택한 패턴이 아니라면, pattern의 top에 있는인덱스와 y가 같지 않다면 (무늬가 같지 않다는 이야기)
+    # 다음칸으로 이동해서 계속 검사, 만약 아니라면 돌아와서 pop과 result에서 빼주고 다음 포문 검사.
+    for y in range(4):
+        if pattern[-1] != y:
+            pattern.append(y)
+            result += card[x][y]
+            game(x+1)
+            pattern.pop()
+            result -= card[x][y]
+    return
+
+
+
+N : 학생수
+card = [list(n번째 학생이 고른 4개의 카드들) for _ in range(N)] #N명이 고른 카드의 숫자를 card라는 이차원 배열에 저장.
+pattern = [7] # 무늬를 구분해야하기 때문에 0은 클로버, 1은 하트, 2는 스페이드, 3은 다이아로 저장.
+              # 처음에는 비교할 패턴이 없으니, 무관한 숫자를 인자로 하나 줌.
+
+minValue = 1 << 32 #최소 합을 구해야하기 때문에 초기에는 임의의 큰 값으로 지정.
+result = 0 # N명의 학생이 뽑은 N개의 카드의 합을 저장할 변수.
+# 이차배열의 시작 인덱스인 0을 넣어서 함수 실행시켜줌
+game(0)
+
+
+=> 결과 : 함수 결과로 남아있는 minValue가 최소값이 된다.
