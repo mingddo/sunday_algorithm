@@ -1,0 +1,64 @@
+# 카드 랜덤으로 뽑기 위해 불러왔다.
+import random
+
+# pseudocode함수 생성
+def pseudocode():
+    # 전역변수 minValue 설정
+    global minValue
+
+    # 학생수
+    N = int(input())
+
+    # 카드의 순서 알기위해 index_card 라는 변수 설정했다
+    # index_card = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
+    index_card = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+    # 카드 초기화
+    card = []
+
+    # 학생 수만큼 반복문 돌리자
+    for i in range(N):
+        # random.sample 함수를 이용하여 무작위로 4개 뽑아 카드 덱에 추가
+        card.append(random.sample(index_card, 4))
+
+    # card 가 어떻게 저장되어 있는지 확인
+    print(card)
+
+    # 결과값 초기화
+    res = 0
+
+    # 첫번째 사람의 가장 적은 수의 주소 저장
+    index_front = card[0].index(min(card[0]))
+
+    # 그 주소의 값 결과에 저장
+    res += card[0][index_front]
+
+    # 첫사람은 저장했으니 다음사람부터 돌리자
+    for i in range(1, N):
+        # 임시변수 선정
+        temp = 987654321
+
+        # 4가지 트럼프 경우 반복
+        for j in range(4):
+            # 바로 앞의 인덱스랑 같으면 continue
+            if index_front == j:
+                continue
+
+            # 최소값 저장하기 위한 if문
+            if temp > card[i][j]:
+                temp = card[i][j]
+                # 새롭게 index를 갱신
+                index_front = j
+        # 결과값에 temp 저장
+        res += temp
+
+    # 모든 사람을 다 돌면 minValue에 값 저장
+    minValue = res
+    return
+
+# 전역변수 초기화
+minValue = -987654321
+
+# pseudocode 함수 실행
+pseudocode()
+print('minValue :', minValue)
