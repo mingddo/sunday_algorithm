@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c90f069-4752-42b4-8d14-bac268f642cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7일차_LinkedList/덕윤/swea_5120_암호_명도균.py" beforeDir="false" afterPath="$PROJECT_DIR$/7일차_LinkedList/덕윤/swea_5120_암호_명도균.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7일차_LinkedList/으수수/SWEA_5110_수열합치기_전의수.py" beforeDir="false" afterPath="$PROJECT_DIR$/7일차_LinkedList/으수수/SWEA_5110_수열합치기_전의수.py" afterDir="false" />
-    </list>
+    <list default="true" id="5c90f069-4752-42b4-8d14-bac268f642cb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,6 +215,10 @@
     <state width="1899" height="190" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.-1600.914.1423@0.0.1920.1040" timestamp="1598792602884" />
     <state width="1260" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599385191193" />
     <state width="2539" height="491" key="GridCell.Tab.0.right/566.-1036.1842.996/0.0.2560.1400@0.0.2560.1400" timestamp="1598548709227" />
+    <state x="627" y="0" width="771" height="1027" key="dock-window-1" timestamp="1599719657981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="0" width="771" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1599719657981" />
     <state x="974" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1598603779360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
